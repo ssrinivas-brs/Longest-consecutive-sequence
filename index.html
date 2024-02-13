@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+
+    <title>longest consecutive sequences</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="ReactTitle ">
+              <h3> longest consecutive sequences </h3>
+            </div>
+    </header>
+ <main role="main" class="container" style="margin-bottom: 100px">
+        <div class="contains">
+<p>The longest consecutive sequence problem is a classic algorithm problem that asks for 
+    the longest sequence of consecutive numbers in an array. For example, given the array
+     [100, 4, 200, 1, 3, 2], the longest consecutive sequence is
+     .</p><p>There are several ways to solve this problem, but one of the most efficient approaches is to use a hash table. A hash table is a data structure that maps keys to values. In this case, 
+        we can use the hash table to store the elements of the array and map them to their corresponding indices.</p>
+ 
+    <h5>Longest Consecutive Sequence Calculator</h5>
+    <label for="inputArray">Enter numbers :</label>
+    <input type="text" id="inputArray" placeholder="eg :[100,4,200,1,3,2]">
+    <button type="button" class="btn btn-info" id="calculateButton">Calculate</button>
+    <div id="result"></div>
+</main>
+    <footer class="footer footer-dark">
+        <div class="d-flex justify-content-center px-5">
+          <div>
+            <button
+              onclick="setTheme('#1A4B84')"
+              class="theme-switch theme-switch-chathams_blue"
+            ></button>
+            <button
+              onclick="setTheme('#991E14')"
+              class="theme-switch theme-switch-tamarillo"
+            ></button>
+            <button
+              onclick="setTheme('#FEAD06')"
+              class="theme-switch theme-switch-yellow_sea"
+            ></button>
+          </div>
+        </div>
+      </footer>
+    <script src="assets/js/longest.js"></script>
+</body>
+</html>
